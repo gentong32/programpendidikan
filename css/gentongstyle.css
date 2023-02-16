@@ -1,0 +1,301 @@
+body {
+    /* background-image: url('../images/bg1.png');
+    background-repeat: repeat repeat;
+    background-position: center;
+    background-attachment: fixed; */
+    margin:0px;
+    background-color: white;
+}
+
+.header1 {
+    background-color:#272e3e;
+    padding: 5px;
+    height: 50px;
+    margin: 0px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.btn-white {
+    background-color: white;
+    padding:5px;
+}
+
+.h1_img img {
+    width:40px;
+    vertical-align: middle;
+    position: absolute;
+}
+
+.h1_txt {
+    color: white;
+    display: inline;
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:50px;
+    margin-top:4px;
+    line-height: 15px;
+    width:200px;
+}
+
+.header2 {
+    background-color:#c6cfd4;
+    padding: 5px;
+    padding-left: 5px;
+    height: 35px;
+    margin-bottom: 0px;
+    display: flex;
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    z-index: 999;
+}
+
+.tb_home {
+    background-image: url('../images/tb_home.png'); 
+    background-size: cover; 
+    background-position: center; 
+    width:80px;
+    margin-right:5px;
+    border: 0;
+    cursor:pointer;
+}
+
+.tb_home:hover {
+    border: solid 1px black;
+}
+
+.tb_integrasi {
+    background-image: url('../images/tb_integrasi.png'); 
+    background-size: cover; 
+    background-position: center; 
+    width:238px;
+    border: 0;
+    cursor:pointer;
+}
+.tb_integrasi:hover {
+    border: solid 1px black;
+}
+
+.splash {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.spl_img img {
+    /* height: calc(100% - 105px);
+    height: -o-calc(100% - 105px);
+    height: -webkit-calc(100% - 105px); 
+    height: -moz-calc(100% - 105px);  */
+    width: calc(100%);
+    width: -o-calc(100%);
+    width: -webkit-calc(100%); 
+    width: -moz-calc(100% ); 
+    position: absolute;
+    margin-left: 0px;
+    padding-bottom:0px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: block;
+    top:80px;
+}
+
+@media screen and (min-width: 650px) {
+	.spl_img img {
+		top:30px;
+	}
+}
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+.bgwhite {
+    background-color: white !important;
+}
+
+#sidebar {
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 80vh;
+    padding-top: 10px;
+    border-right: 0.5px solid gray;
+    margin-top:85px;
+}
+
+#sidebar.active {
+    margin-left: -200px;
+}
+
+#sidebar {
+    /* don't forget to add all the previously mentioned styles here too */
+    background: white;
+    color: black;
+    transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: white;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: black;
+    background: white;
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: white;
+}
+
+.small-font
+{
+    font-size:13px !important;
+    line-height: 5px !important;
+}
+
+.kecil
+{
+    padding: 0px;
+    border: 0px;
+}
+
+.breadcrumps {
+    margin:10px;
+}
+  
+.breadcrumps a {
+color:blue;
+}
+
+.link1 {
+    color: blue;
+}
+
+.link1:hover {
+    color: #3055be;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -200px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.inline {
+    display: inline;
+}
+
+
+.isikonten {
+    margin-left:20px;
+    margin-right:20px;
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+
+#content {
+    width:100%;
+    margin-top:85px;
+}
+
+.hrtipis {
+    border:0.5px solid gray;
+    padding-top: 0px;
+    margin-top:0px;
+}
+
+.judul {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.judulatas {
+    font-weight:bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  } 
+
+.judultabel {
+    margin-bottom:10px;
+}
+
+.tb_utama {
+    background: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #b8b8b8);
+    background-image: -moz-linear-gradient(top, #ffffff, #b8b8b8);
+    background-image: -ms-linear-gradient(top, #ffffff, #b8b8b8);
+    background-image: -o-linear-gradient(top, #ffffff, #b8b8b8);
+    background-image: linear-gradient(to bottom, #ffffff, #b8b8b8);
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 12px;
+    padding: 2px 8px 2px 8px;
+    border: solid #2a2d30 1px;
+    height: 22px;
+    text-decoration: none;
+  }
+  
+  .tb_utama:hover {
+    background: #cfcfcf;
+    text-decoration: none;
+  }
+
+  .mytable {
+    font-size: 13px;
+  }
+
+  .text-right {
+    padding-right: 25px !important;
+    text-align: right;
+  }

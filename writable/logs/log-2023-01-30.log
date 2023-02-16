@@ -1,0 +1,126 @@
+CRITICAL - 2023-01-30 00:30:19 --> Undefined constant "namaprogram"
+in APPPATH\Views\data_nasional.php on line 60.
+ 1 APPPATH\Views\konten.php(31): include()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\konten.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('konten', [], true)
+ 5 APPPATH\Controllers\Home.php(89): view('konten', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 00:32:12 --> Undefined variable $judul
+in APPPATH\Views\konten.php on line 30.
+ 1 APPPATH\Views\konten.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judul', 'APPPATH\\Views\\konten.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\konten.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('konten', [], true)
+ 5 APPPATH\Controllers\Home.php(89): view('konten', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 00:33:35 --> Undefined constant "namaprogram"
+in APPPATH\Views\data_nasional.php on line 60.
+ 1 APPPATH\Views\konten.php(29): include()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\konten.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('konten', [], true)
+ 5 APPPATH\Controllers\Home.php(89): view('konten', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-30 16:58:01 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure() in D:\laragon\www\programpendidikan\system\Database\SQLSRV\Connection.php:127
+Stack trace:
+#0 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\programpendidikan\app\Models\DataModelProgram.php(74): CodeIgniter\Database\BaseConnection->query('SELECT nama FRO...', Array)
+#3 D:\laragon\www\programpendidikan\app\Controllers\Home.php(64): App\Models\DataModelProgram->getNamaPilihan('000000')
+#4 D:\laragon\www\programpendidikan\system\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+#5 D:\laragon\www\programpendidikan\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\laragon\www\programpendidikan\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\programpendidikan\index.php(55): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-30 16:58:01 --> Unable to connect to the database.
+Main connection [SQLSRV]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataModelProgram.php(74): CodeIgniter\Database\BaseConnection->query('SELECT nama FROM Referensi.ref.mst_wilayah w  
+                WHERE kode_wilayah=:kodewilayah:', [...])
+ 3 APPPATH\Controllers\Home.php(64): App\Models\DataModelProgram->getNamaPilihan('000000')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-30 20:57:35 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure() in D:\laragon\www\programpendidikan\system\Database\SQLSRV\Connection.php:127
+Stack trace:
+#0 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\programpendidikan\app\Models\DataModelProgram.php(74): CodeIgniter\Database\BaseConnection->query('SELECT nama FRO...', Array)
+#3 D:\laragon\www\programpendidikan\app\Controllers\Home.php(64): App\Models\DataModelProgram->getNamaPilihan('000000')
+#4 D:\laragon\www\programpendidikan\system\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+#5 D:\laragon\www\programpendidikan\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\laragon\www\programpendidikan\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\programpendidikan\index.php(55): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-30 20:57:35 --> Unable to connect to the database.
+Main connection [SQLSRV]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataModelProgram.php(74): CodeIgniter\Database\BaseConnection->query('SELECT nama FROM Referensi.ref.mst_wilayah w  
+                WHERE kode_wilayah=:kodewilayah:', [...])
+ 3 APPPATH\Controllers\Home.php(64): App\Models\DataModelProgram->getNamaPilihan('000000')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 21:55:53 --> Undefined variable $judul
+in APPPATH\Views\depan.php on line 30.
+ 1 APPPATH\Views\depan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judul', 'APPPATH\\Views\\depan.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\depan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('depan', [], true)
+ 5 APPPATH\Controllers\Home.php(95): view('depan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 21:56:44 --> Undefined variable $namapilihan
+in APPPATH\Views\data_nasional.php on line 61.
+ 1 APPPATH\Views\data_nasional.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $namapilihan', 'APPPATH\\Views\\data_nasional.php', 61)
+ 2 APPPATH\Views\depan.php(31): include('APPPATH\\Views\\data_nasional.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\depan.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('depan', [], true)
+ 6 APPPATH\Controllers\Home.php(95): view('depan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-30 21:59:41 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. in D:\laragon\www\programpendidikan\system\Database\SQLSRV\Connection.php:147
+Stack trace:
+#0 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\programpendidikan\app\Models\DataModelProgram.php(74): CodeIgniter\Database\BaseConnection->query('SELECT nama FRO...', Array)
+#3 D:\laragon\www\programpendidikan\app\Controllers\Home.php(64): App\Models\DataModelProgram->getNamaPilihan('000000')
+#4 D:\laragon\www\programpendidikan\system\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+#5 D:\laragon\www\programpendidikan\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\laragon\www\programpendidikan\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\programpendidikan\index.php(55): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-30 21:59:41 --> Unable to connect to the database.
+Main connection [SQLSRV]: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataModelProgram.php(74): CodeIgniter\Database\BaseConnection->query('SELECT nama FROM Referensi.ref.mst_wilayah w  
+                WHERE kode_wilayah=:kodewilayah:', [...])
+ 3 APPPATH\Controllers\Home.php(64): App\Models\DataModelProgram->getNamaPilihan('000000')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

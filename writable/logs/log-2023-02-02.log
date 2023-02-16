@@ -1,0 +1,335 @@
+ERROR - 2023-02-02 09:58:05 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure() in D:\laragon\www\programpendidikan\system\Database\SQLSRV\Connection.php:127
+Stack trace:
+#0 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\programpendidikan\app\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.ge...', Array)
+#3 D:\laragon\www\programpendidikan\app\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+#4 D:\laragon\www\programpendidikan\system\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+#5 D:\laragon\www\programpendidikan\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\laragon\www\programpendidikan\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\programpendidikan\index.php(55): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-02 09:58:05 --> Unable to connect to the database.
+Main connection [SQLSRV]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.getSidebarMenu :jenis:', [...])
+ 3 APPPATH\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-02 18:48:43 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure() in D:\laragon\www\programpendidikan\system\Database\SQLSRV\Connection.php:127
+Stack trace:
+#0 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\programpendidikan\app\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.ge...', Array)
+#3 D:\laragon\www\programpendidikan\app\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+#4 D:\laragon\www\programpendidikan\system\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+#5 D:\laragon\www\programpendidikan\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\laragon\www\programpendidikan\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\programpendidikan\index.php(55): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-02 18:48:43 --> Unable to connect to the database.
+Main connection [SQLSRV]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.getSidebarMenu :jenis:', [...])
+ 3 APPPATH\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-02 19:04:02 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure() in D:\laragon\www\programpendidikan\system\Database\SQLSRV\Connection.php:127
+Stack trace:
+#0 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\programpendidikan\app\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.ge...', Array)
+#3 D:\laragon\www\programpendidikan\app\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+#4 D:\laragon\www\programpendidikan\system\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+#5 D:\laragon\www\programpendidikan\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\laragon\www\programpendidikan\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\programpendidikan\index.php(55): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-02 19:04:02 --> Unable to connect to the database.
+Main connection [SQLSRV]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.getSidebarMenu :jenis:', [...])
+ 3 APPPATH\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-02 19:04:51 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure() in D:\laragon\www\programpendidikan\system\Database\SQLSRV\Connection.php:127
+Stack trace:
+#0 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\programpendidikan\app\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.ge...', Array)
+#3 D:\laragon\www\programpendidikan\app\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+#4 D:\laragon\www\programpendidikan\system\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+#5 D:\laragon\www\programpendidikan\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\laragon\www\programpendidikan\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\programpendidikan\index.php(55): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-02 19:04:51 --> Unable to connect to the database.
+Main connection [sqlsrv]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.getSidebarMenu :jenis:', [...])
+ 3 APPPATH\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-02 19:08:30 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure() in D:\laragon\www\programpendidikan\system\Database\SQLSRV\Connection.php:127
+Stack trace:
+#0 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\programpendidikan\app\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.ge...', Array)
+#3 D:\laragon\www\programpendidikan\app\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+#4 D:\laragon\www\programpendidikan\system\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+#5 D:\laragon\www\programpendidikan\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\laragon\www\programpendidikan\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\programpendidikan\index.php(55): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-02 19:08:30 --> Unable to connect to the database.
+Main connection [SQLSRV]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.getSidebarMenu :jenis:', [...])
+ 3 APPPATH\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-02 19:09:56 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure() in D:\laragon\www\programpendidikan\system\Database\SQLSRV\Connection.php:127
+Stack trace:
+#0 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\programpendidikan\app\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.ge...', Array)
+#3 D:\laragon\www\programpendidikan\app\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+#4 D:\laragon\www\programpendidikan\system\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+#5 D:\laragon\www\programpendidikan\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\laragon\www\programpendidikan\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\programpendidikan\index.php(55): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-02 19:09:56 --> Unable to connect to the database.
+Main connection [SQLSRV]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.getSidebarMenu :jenis:', [...])
+ 3 APPPATH\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-02 19:15:03 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. in D:\laragon\www\programpendidikan\system\Database\SQLSRV\Connection.php:147
+Stack trace:
+#0 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\programpendidikan\app\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.ge...', Array)
+#3 D:\laragon\www\programpendidikan\app\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+#4 D:\laragon\www\programpendidikan\system\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+#5 D:\laragon\www\programpendidikan\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\laragon\www\programpendidikan\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\programpendidikan\index.php(55): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-02 19:15:03 --> Unable to connect to the database.
+Main connection [SQLSRV]: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.getSidebarMenu :jenis:', [...])
+ 3 APPPATH\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-02 19:19:27 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. in D:\laragon\www\programpendidikan\system\Database\SQLSRV\Connection.php:147
+Stack trace:
+#0 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\programpendidikan\app\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.ge...', Array)
+#3 D:\laragon\www\programpendidikan\app\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+#4 D:\laragon\www\programpendidikan\system\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+#5 D:\laragon\www\programpendidikan\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\laragon\www\programpendidikan\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\programpendidikan\index.php(55): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-02 19:19:27 --> Unable to connect to the database.
+Main connection [SQLSRV]: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.getSidebarMenu :jenis:', [...])
+ 3 APPPATH\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-02 20:03:35 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure() in D:\laragon\www\programpendidikan\system\Database\SQLSRV\Connection.php:127
+Stack trace:
+#0 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\programpendidikan\app\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.ge...', Array)
+#3 D:\laragon\www\programpendidikan\app\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+#4 D:\laragon\www\programpendidikan\system\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+#5 D:\laragon\www\programpendidikan\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\laragon\www\programpendidikan\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\programpendidikan\index.php(55): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-02 20:03:35 --> Unable to connect to the database.
+Main connection [SQLSRV]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.getSidebarMenu :jenis:', [...])
+ 3 APPPATH\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-02 20:04:52 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure() in D:\laragon\www\programpendidikan\system\Database\SQLSRV\Connection.php:127
+Stack trace:
+#0 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\programpendidikan\app\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.ge...', Array)
+#3 D:\laragon\www\programpendidikan\app\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+#4 D:\laragon\www\programpendidikan\system\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+#5 D:\laragon\www\programpendidikan\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\laragon\www\programpendidikan\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\programpendidikan\index.php(55): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-02 20:04:52 --> Unable to connect to the database.
+Main connection [SQLSRV]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.getSidebarMenu :jenis:', [...])
+ 3 APPPATH\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-02 20:05:15 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure() in D:\laragon\www\programpendidikan\system\Database\SQLSRV\Connection.php:127
+Stack trace:
+#0 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\programpendidikan\app\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.ge...', Array)
+#3 D:\laragon\www\programpendidikan\app\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+#4 D:\laragon\www\programpendidikan\system\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+#5 D:\laragon\www\programpendidikan\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\laragon\www\programpendidikan\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\programpendidikan\index.php(55): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-02 20:05:15 --> Unable to connect to the database.
+Main connection [SQLSRV]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.getSidebarMenu :jenis:', [...])
+ 3 APPPATH\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-02 20:48:24 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. in D:\laragon\www\programpendidikan\system\Database\SQLSRV\Connection.php:147
+Stack trace:
+#0 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\programpendidikan\app\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.ge...', Array)
+#3 D:\laragon\www\programpendidikan\app\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+#4 D:\laragon\www\programpendidikan\system\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+#5 D:\laragon\www\programpendidikan\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\laragon\www\programpendidikan\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\programpendidikan\index.php(55): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-02 20:48:24 --> Unable to connect to the database.
+Main connection [SQLSRV]: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.getSidebarMenu :jenis:', [...])
+ 3 APPPATH\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 21:18:54 --> Undefined variable $cekjalurbentukstatus
+in APPPATH\Views\data_nasional.php on line 111.
+ 1 APPPATH\Views\data_nasional.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cekjalurbentukstatus', 'APPPATH\\Views\\data_nasional.php', 111)
+ 2 APPPATH\Views\konten.php(29): include('APPPATH\\Views\\data_nasional.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\konten.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('konten', [], true)
+ 6 APPPATH\Controllers\Home.php(107): view('konten', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 21:21:43 --> Undefined variable $cekjalurbentukstatus
+in APPPATH\Views\data_nasional.php on line 111.
+ 1 APPPATH\Views\data_nasional.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cekjalurbentukstatus', 'APPPATH\\Views\\data_nasional.php', 111)
+ 2 APPPATH\Views\konten.php(29): include('APPPATH\\Views\\data_nasional.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\konten.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('konten', [], true)
+ 6 APPPATH\Controllers\Home.php(107): view('konten', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 21:21:54 --> Undefined variable $cekjalurbentukstatus
+in APPPATH\Views\data_nasional.php on line 111.
+ 1 APPPATH\Views\data_nasional.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cekjalurbentukstatus', 'APPPATH\\Views\\data_nasional.php', 111)
+ 2 APPPATH\Views\konten.php(29): include('APPPATH\\Views\\data_nasional.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\konten.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('konten', [], true)
+ 6 APPPATH\Controllers\Home.php(107): view('konten', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 21:30:03 --> Undefined variable $kolomtabel
+in APPPATH\Views\data_nasional.php on line 92.
+ 1 APPPATH\Views\data_nasional.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kolomtabel', 'APPPATH\\Views\\data_nasional.php', 92)
+ 2 APPPATH\Views\konten.php(29): include('APPPATH\\Views\\data_nasional.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\konten.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('konten', [], true)
+ 6 APPPATH\Controllers\Home.php(107): view('konten', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 21:34:26 --> Undefined variable $kolomtabel
+in APPPATH\Views\data_nasional.php on line 92.
+ 1 APPPATH\Views\data_nasional.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kolomtabel', 'APPPATH\\Views\\data_nasional.php', 92)
+ 2 APPPATH\Views\konten.php(29): include('APPPATH\\Views\\data_nasional.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\konten.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('konten', [], true)
+ 6 APPPATH\Controllers\Home.php(107): view('konten', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-02 23:08:00 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Ambiguous column name 'id_level_wilayah'.
+CRITICAL - 2023-02-02 23:08:00 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Ambiguous column name 'id_level_wilayah'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC PIP.dbo.getPIP_Wilayah \'2022\', \'021009\', \'4\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC PIP.dbo.getPIP_Wilayah \'2022\', \'021009\', \'4\'')
+ 3 APPPATH\Models\DataModelProgram.php(31): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.getPIP_Wilayah :tahun:, :kode:, :level:', [...])
+ 4 APPPATH\Controllers\Home.php(88): App\Models\DataModelProgram->getWilayah('PIP', '2022', '021009', '4')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

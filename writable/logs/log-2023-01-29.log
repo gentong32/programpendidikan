@@ -1,0 +1,192 @@
+CRITICAL - 2023-01-29 20:51:09 --> Undefined array key "namaprogram"
+in APPPATH\Controllers\Home.php on line 14.
+ 1 APPPATH\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namaprogram"', 'APPPATH\\Controllers\\Home.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 21:46:14 --> Class "App\Models\DataModelProgram" not found
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 21:46:25 --> Class "App\Models\DataModelProgram" not found
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 21:49:29 --> Undefined variable $level
+in APPPATH\Controllers\Home.php on line 35.
+ 1 APPPATH\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $level', 'APPPATH\\Controllers\\Home.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 21:55:19 --> Undefined variable $kode
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode', 'APPPATH\\Controllers\\Home.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-29 21:56:00 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: Client unable to establish connection because an error was encountered during handshakes before login. Common causes include client attempting to connect to an unsupported version of SQL Server, server too busy to accept new connections or a resource limitation (memory or maximum allowed connections) on the server.
+TCP Provider: An established connection was aborted by the software in your host machine.
+
+Client unable to establish connection
+Client unable to establish connection due to prelogin failure in D:\laragon\www\programpendidikan\system\Database\SQLSRV\Connection.php:147
+Stack trace:
+#0 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\programpendidikan\app\Models\DataModelProgram.php(302): CodeIgniter\Database\BaseConnection->query('SELECT nama FRO...', Array)
+#3 D:\laragon\www\programpendidikan\app\Controllers\Home.php(54): App\Models\DataModelProgram->getNamaPilihan('000000')
+#4 D:\laragon\www\programpendidikan\system\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+#5 D:\laragon\www\programpendidikan\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\laragon\www\programpendidikan\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\programpendidikan\index.php(55): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-29 21:56:00 --> Unable to connect to the database.
+Main connection [SQLSRV]: Client unable to establish connection because an error was encountered during handshakes before login. Common causes include client attempting to connect to an unsupported version of SQL Server, server too busy to accept new connections or a resource limitation (memory or maximum allowed connections) on the server.
+TCP Provider: An established connection was aborted by the software in your host machine.
+
+Client unable to establish connection
+Client unable to establish connection due to prelogin failure
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataModelProgram.php(302): CodeIgniter\Database\BaseConnection->query('SELECT nama FROM Referensi.ref.mst_wilayah w  
+                WHERE kode_wilayah=:kodewilayah:', [...])
+ 3 APPPATH\Controllers\Home.php(54): App\Models\DataModelProgram->getNamaPilihan('000000')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-29 21:56:39 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: TCP Provider: The wait operation timed out.
+
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. in D:\laragon\www\programpendidikan\system\Database\SQLSRV\Connection.php:147
+Stack trace:
+#0 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\programpendidikan\app\Models\DataModelProgram.php(302): CodeIgniter\Database\BaseConnection->query('SELECT nama FRO...', Array)
+#3 D:\laragon\www\programpendidikan\app\Controllers\Home.php(54): App\Models\DataModelProgram->getNamaPilihan('000000')
+#4 D:\laragon\www\programpendidikan\system\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+#5 D:\laragon\www\programpendidikan\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\laragon\www\programpendidikan\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\programpendidikan\index.php(55): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-29 21:56:39 --> Unable to connect to the database.
+Main connection [SQLSRV]: TCP Provider: The wait operation timed out.
+
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataModelProgram.php(302): CodeIgniter\Database\BaseConnection->query('SELECT nama FROM Referensi.ref.mst_wilayah w  
+                WHERE kode_wilayah=:kodewilayah:', [...])
+ 3 APPPATH\Controllers\Home.php(54): App\Models\DataModelProgram->getNamaPilihan('000000')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-29 21:56:57 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: TCP Provider: The wait operation timed out.
+
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. in D:\laragon\www\programpendidikan\system\Database\SQLSRV\Connection.php:147
+Stack trace:
+#0 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\programpendidikan\app\Models\DataModelProgram.php(302): CodeIgniter\Database\BaseConnection->query('SELECT nama FRO...', Array)
+#3 D:\laragon\www\programpendidikan\app\Controllers\Home.php(54): App\Models\DataModelProgram->getNamaPilihan('000000')
+#4 D:\laragon\www\programpendidikan\system\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+#5 D:\laragon\www\programpendidikan\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\laragon\www\programpendidikan\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\programpendidikan\index.php(55): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-29 21:56:57 --> Unable to connect to the database.
+Main connection [SQLSRV]: TCP Provider: The wait operation timed out.
+
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataModelProgram.php(302): CodeIgniter\Database\BaseConnection->query('SELECT nama FROM Referensi.ref.mst_wilayah w  
+                WHERE kode_wilayah=:kodewilayah:', [...])
+ 3 APPPATH\Controllers\Home.php(54): App\Models\DataModelProgram->getNamaPilihan('000000')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-29 21:57:20 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: TCP Provider: The wait operation timed out.
+
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. in D:\laragon\www\programpendidikan\system\Database\SQLSRV\Connection.php:147
+Stack trace:
+#0 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\programpendidikan\app\Models\DataModelProgram.php(302): CodeIgniter\Database\BaseConnection->query('SELECT nama FRO...', Array)
+#3 D:\laragon\www\programpendidikan\app\Controllers\Home.php(54): App\Models\DataModelProgram->getNamaPilihan('000000')
+#4 D:\laragon\www\programpendidikan\system\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+#5 D:\laragon\www\programpendidikan\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\laragon\www\programpendidikan\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\programpendidikan\index.php(55): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-29 21:57:20 --> Unable to connect to the database.
+Main connection [SQLSRV]: TCP Provider: The wait operation timed out.
+
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataModelProgram.php(302): CodeIgniter\Database\BaseConnection->query('SELECT nama FROM Referensi.ref.mst_wilayah w  
+                WHERE kode_wilayah=:kodewilayah:', [...])
+ 3 APPPATH\Controllers\Home.php(54): App\Models\DataModelProgram->getNamaPilihan('000000')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 21:59:22 --> Undefined variable $jenjang
+in APPPATH\Controllers\Home.php on line 66.
+ 1 APPPATH\Controllers\Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jenjang', 'APPPATH\\Controllers\\Home.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 22:00:22 --> Invalid file: pip/data_nasional.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pip/data_nasional.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pip/data_nasional', [], true)
+ 3 APPPATH\Controllers\Home.php(73): view('pip/data_nasional', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 22:34:40 --> Invalid file: pip/data_nasional.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pip/data_nasional.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pip/data_nasional', [], true)
+ 3 APPPATH\Controllers\Home.php(73): view('pip/data_nasional', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 22:35:28 --> Invalid file: pip/data_nasional.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pip/data_nasional.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pip/data_nasional', [], true)
+ 3 APPPATH\Controllers\Home.php(73): view('pip/data_nasional', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 22:36:30 --> Undefined variable $kode
+in APPPATH\Views\data_nasional.php on line 8.
+ 1 APPPATH\Views\data_nasional.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode', 'APPPATH\\Views\\data_nasional.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data_nasional.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('data_nasional', [], true)
+ 5 APPPATH\Controllers\Home.php(73): view('data_nasional', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

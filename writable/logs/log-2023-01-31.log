@@ -1,0 +1,192 @@
+CRITICAL - 2023-01-31 05:19:54 --> Undefined variable $query
+in APPPATH\Models\DataModelProgram.php on line 14.
+ 1 APPPATH\Models\DataModelProgram.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $query', 'APPPATH\\Models\\DataModelProgram.php', 14)
+ 2 APPPATH\Controllers\Home.php(44): App\Models\DataModelProgram->getSidebarMenu()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 05:20:18 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The request for procedure 'sidebar_menu' failed because 'sidebar_menu' is a table object.
+CRITICAL - 2023-01-31 05:20:18 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The request for procedure 'sidebar_menu' failed because 'sidebar_menu' is a table object.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC DataProcess.dashboard.sidebar_menu')
+ 2 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC DataProcess.dashboard.sidebar_menu')
+ 3 APPPATH\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC DataProcess.dashboard.sidebar_menu')
+ 4 APPPATH\Controllers\Home.php(44): App\Models\DataModelProgram->getSidebarMenu()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 05:22:47 --> Undefined variable $query
+in APPPATH\Models\DataModelProgram.php on line 14.
+ 1 APPPATH\Models\DataModelProgram.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $query', 'APPPATH\\Models\\DataModelProgram.php', 14)
+ 2 APPPATH\Controllers\Home.php(44): App\Models\DataModelProgram->getSidebarMenu()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 06:40:14 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\layout\default.php on line 85.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('konten', [], true)
+ 5 APPPATH\Controllers\Home.php(95): view('konten', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 06:51:43 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\layout\default.php on line 85.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('depan', [], true)
+ 5 APPPATH\Controllers\Home.php(100): view('depan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 06:52:56 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\layout\default.php on line 85.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('depan', [], true)
+ 5 APPPATH\Controllers\Home.php(100): view('depan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 06:55:33 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\layout\default.php on line 85.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('depan', [], true)
+ 5 APPPATH\Controllers\Home.php(105): view('depan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 06:56:31 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\layout\default.php on line 99.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('depan', [], true)
+ 5 APPPATH\Controllers\Home.php(105): view('depan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 06:56:55 --> Undefined variable $isimenu_nama
+in APPPATH\Views\layout\default.php on line 99.
+ 1 APPPATH\Views\layout\default.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isimenu_nama', 'APPPATH\\Views\\layout\\default.php', 99)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('depan', [], true)
+ 6 APPPATH\Controllers\Home.php(105): view('depan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 07:11:07 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. in D:\laragon\www\programpendidikan\system\Database\SQLSRV\Connection.php:147
+Stack trace:
+#0 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\programpendidikan\app\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.ge...', Array)
+#3 D:\laragon\www\programpendidikan\app\Controllers\Home.php(44): App\Models\DataModelProgram->getSidebarMenu(1)
+#4 D:\laragon\www\programpendidikan\system\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+#5 D:\laragon\www\programpendidikan\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\laragon\www\programpendidikan\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\programpendidikan\index.php(55): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-01-31 07:11:07 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. in D:\laragon\www\programpendidikan\system\Database\SQLSRV\Connection.php:147
+Stack trace:
+#0 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\programpendidikan\app\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.ge...', Array)
+#3 D:\laragon\www\programpendidikan\app\Controllers\Home.php(44): App\Models\DataModelProgram->getSidebarMenu(1)
+#4 D:\laragon\www\programpendidikan\system\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+#5 D:\laragon\www\programpendidikan\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\laragon\www\programpendidikan\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\programpendidikan\index.php(55): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-31 07:11:07 --> Unable to connect to the database.
+Main connection [SQLSRV]: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.getSidebarMenu :jenis:', [...])
+ 3 APPPATH\Controllers\Home.php(44): App\Models\DataModelProgram->getSidebarMenu(1)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 07:11:07 --> Unable to connect to the database.
+Main connection [SQLSRV]: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.getSidebarMenu :jenis:', [...])
+ 3 APPPATH\Controllers\Home.php(44): App\Models\DataModelProgram->getSidebarMenu(1)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 07:15:19 --> Undefined variable $kode
+in APPPATH\Views\depan.php on line 46.
+ 1 APPPATH\Views\depan.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode', 'APPPATH\\Views\\depan.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\depan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('depan', [], true)
+ 5 APPPATH\Controllers\Home.php(108): view('depan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 07:17:21 --> Undefined variable $menu
+in APPPATH\Views\layout\default.php on line 69.
+ 1 APPPATH\Views\layout\default.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'APPPATH\\Views\\layout\\default.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/default', [], true)
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('depan', [], true)
+ 6 APPPATH\Controllers\Home.php(108): view('depan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 20:19:42 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. in D:\laragon\www\programpendidikan\system\Database\SQLSRV\Connection.php:147
+Stack trace:
+#0 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 D:\laragon\www\programpendidikan\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\programpendidikan\app\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.ge...', Array)
+#3 D:\laragon\www\programpendidikan\app\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+#4 D:\laragon\www\programpendidikan\system\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+#5 D:\laragon\www\programpendidikan\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\laragon\www\programpendidikan\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\programpendidikan\index.php(55): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-31 20:19:42 --> Unable to connect to the database.
+Main connection [SQLSRV]: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataModelProgram.php(13): CodeIgniter\Database\BaseConnection->query('EXEC PIP.dbo.getSidebarMenu :jenis:', [...])
+ 3 APPPATH\Controllers\Home.php(48): App\Models\DataModelProgram->getSidebarMenu(1)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->integrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
